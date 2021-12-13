@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Frames in HTML</title>
+</head>
+<frameset rows="10%,80%,10%">
+    <frameset cols="50%,50%">
+        <frame src="order_list.html">
+        <frame src="order_list.html">
+    </frameset>        
+    <frame name="main" src="hyperlink.html">   
+    <frame name="bottom" src="image.html"> 
+    <noframes>
+        <body>
+            Your browser does not support frames.
+        </body>
+    </noframes>  
+</frameset>
+<body>
+    
+</body>
+</html>

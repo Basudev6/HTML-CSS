@@ -1,0 +1,97 @@
+<html>
+
+<head>
+    <title>Forms in HTML</title>
+</head>
+
+<body>
+    <h2>Student Registration</h2>
+    <form>
+        <table>
+            <tr>
+                <td>Name</td> 
+                <td><input type="text" required maxlength="30" ></td>
+            </tr>
+            <tr>
+                <td>Email id</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" ></td>
+            </tr>
+            <tr>
+                <td>Confirm password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male <br>
+                    <input type="radio" name="gender"> Female <br>
+                    <input type="radio" name="gender"> Others <br>
+                </td>
+            </tr>
+            <tr>
+                <td>Favourite color</td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+                <td>Upload profile picture</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Expected salary</td>
+                <td><input type="range" min="0" max="5000"></td>
+            </tr>
+
+            <tr>
+                <td>Pincode</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>How you hear us</td>
+                <td>
+                    <select multiple>
+                        <option>Tv</option>
+                        <option>Radio</option>
+                        <option>Social media</option>
+                        <option>Friends</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Select course to apply</td>
+                <td>
+                    <select>
+                        <option>BBA</option>
+                        <option>BIM</option>
+                        <option>BCA</option>
+                        <option>BHM</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Agree and submit</td>
+                <td>
+                    <input type="checkbox">Agree<br>
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
